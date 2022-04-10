@@ -437,15 +437,15 @@ This repository is distributed under the GNU GPLv3 License. See `LICENSE` for mo
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/core-hacked/CoreScript-lang.svg?colorA=1e1e28&colorB=E38C8F&style=for-the-badge&logo=starship%20style=for-the-badge
-[contributors-url]: https://github.com/core-hacked/CoreScript-lang/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/core-hacked/CoreScript-lang.svg?colorA=1e1e28&colorB=A4B9EF&style=for-the-badge&logo=starship%20style=for-the-badge
-[forks-url]: https://github.com/core-hacked/CoreScript-lang/network/members
-[stars-shield]: https://img.shields.io/github/stars/core-hacked/CoreScript-lang.svg?colorA=1e1e28&colorB=EBDDAA&style=for-the-badge&logo=starship%20style=for-the-badge
-[stars-url]: https://github.com/core-hacked/CoreScript-lang/stargazers
-[issues-shield]: https://img.shields.io/github/issues/core-hacked/CoreScript-lang.svg?colorA=1e1e28&colorB=B1E3AD&style=for-the-badge&logo=starship%20style=for-the-badge
-[issues-url]: https://github.com/core-hacked/CoreScript-lang/issues
-[license-shield]: https://img.shields.io/github/license/core-hacked/CoreScript-lang.svg?colorA=1e1e28&colorB=F9C096&style=for-the-badge&logo=starship%20style=for-the-badge
-[license-url]: https://github.com/core-hacked/CoreScript-lang/blob/master/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/core-hacked/corescript-lang.svg?colorA=1e1e28&colorB=E38C8F&style=for-the-badge&logo=starship%20style=for-the-badge
+[contributors-url]: https://github.com/core-hacked/corescript-lang/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/core-hacked/corescript-lang.svg?colorA=1e1e28&colorB=A4B9EF&style=for-the-badge&logo=starship%20style=for-the-badge
+[forks-url]: https://github.com/core-hacked/corescript-lang/network/members
+[stars-shield]: https://img.shields.io/github/stars/core-hacked/corescript-lang.svg?colorA=1e1e28&colorB=EBDDAA&style=for-the-badge&logo=starship%20style=for-the-badge
+[stars-url]: https://github.com/core-hacked/corescript-lang/stargazers
+[issues-shield]: https://img.shields.io/github/issues/core-hacked/corescript-lang.svg?colorA=1e1e28&colorB=B1E3AD&style=for-the-badge&logo=starship%20style=for-the-badge
+[issues-url]: https://github.com/core-hacked/corescript-lang/issues
+[license-shield]: https://img.shields.io/github/license/core-hacked/corescript-lang.svg?colorA=1e1e28&colorB=F9C096&style=for-the-badge&logo=starship%20style=for-the-badge
+[license-url]: https://github.com/core-hacked/corescript-lang/blob/master/LICENSE
 [releaselateststable-shield]: https://img.shields.io/badge/Release-Stable%3A%20v1.0.0-blue?colorA=1e1e28&colorB=A4B9EF&style=for-the-badge&logo=starship%20style=for-the-badge
-[releaselateststable-url]: https://github.com/core-hacked/CoreScript-lang/releases/latest
+[releaselateststable-url]: https://github.com/core-hacked/corescript-lang/releases/latest
