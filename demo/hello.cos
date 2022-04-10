@@ -1,0 +1,5 @@
+#!/bin/corescript
+# hello world in corescript
+
+print Hello World!
+stop

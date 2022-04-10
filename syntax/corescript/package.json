@@ -1,0 +1,26 @@
+{
+    "name": "corescript",
+    "displayName": "CoreScript",
+    "description": "CoreScript programming language syntax highlighting",
+    "version": "1.0.0",
+    "icon": "logo.png", "repository": { "type": "git", "url": "https://github.com/core-hacked/CoreScript-lang.git" },
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "corescript",
+            "aliases": ["CoreScript", "corescript"],
+            "extensions": [".cos",".corescript"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "corescript",
+            "scopeName": "source.corescript",
+            "path": "./syntaxes/corescript.tmLanguage.json"
+        }]
+    }
+}

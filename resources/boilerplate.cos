@@ -1,0 +1,11 @@
+#!/bin/corescript
+
+goto main
+
+:main
+
+goto exit
+
+:exit
+stop
+

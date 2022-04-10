@@ -1,0 +1,136 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "CoreScript",
+	"scopeName": "source.corescript",
+	"patterns": [
+		{
+			"include": "#commands"
+		},
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#other"
+		}
+	],
+	"repository": {
+		"commands": {
+			"patterns": [
+				{
+					"match": "(?<=^|[\\s@])(?i:print|var|set|goto|if|return|sys|mkdir|rmdir|mk|rm|stop|input|return|add|div|sub|mult|rem|rand|len|char|nprint)(?=$|\\s)",
+					"name": "keyword.command.corescript"
+				}
+			]
+		},
+		"comments": {
+			"patterns": [
+				{
+					"begin": "#",
+					"beginCaptures": {
+						"1": {
+							"name": "keyword.command.comment.corescript"
+						},
+						"2": {
+							"name": "punctuation.separator.corescript"
+						}
+					},
+					"end": "\\n",
+					"name": "comment.line.comment.corescript"
+				}
+			]
+		},
+		"other": {
+			"patterns": [
+				{
+					"include": "#functions"
+				},
+				{
+					"include": "#numbers"
+				},
+				{
+					"include": "#variables"
+				}
+			]
+		},
+		"functions": {
+			"patterns": [
+				{
+					"begin": ":",
+					"end": "\\n",
+					"name": "entity.name.type.language.corescript"
+				}
+			]
+		},
+		"numbers": {
+			"patterns": [
+				{
+					"include": "#variables"
+				},
+				{
+					"name": "constant.numeric.integer.corescript",
+					"match": "\\b(\\d+)\\b"
+			  	},
+				{
+					"name": "constant.numeric.integer.corescript",
+					"match": "/([1-9][0-9]*)/"
+				},
+				{
+					"name": "constant.numeric.decimal.corescript",
+					"match": "\\b(\\d+\\.\\d+)\\b"
+				}
+			]
+		},
+		"variables": {
+			"patterns": [
+				{
+					"include": "#variable"
+				},
+				{
+					"include": "#aftercommand"
+				}
+			]
+		},
+		"variable": {
+			"patterns": [
+				{
+					"begin": "\\[",
+      				"end": "\\]",
+      				"name": "variable.corescript"
+				}
+			]
+		},
+		"aftercommand": {
+			"patterns": [
+				{
+					"include": "#variable"
+				},
+				{
+					"name": "string.quoted.double",
+					"match": "(?<=print)(.*$)"
+				},
+				{
+					"name": "string.quoted.double",
+					"match": "(?<=nprint)(.*$)"
+				},
+				{
+					"name": "string.quoted.other",
+					"match": "(?<=sys)(.*$)"
+				},
+				{
+					"name": "entity.name.class",
+					"match": "(?<=goto)(.*$)"
+				},
+				{
+					"name": "entity.name.class",
+					"match": "(?<=return)(.*$)"
+				},
+				{
+					"begin": "\\[",
+      				"end": "\\]",
+      				"name": "variable.corescript"
+				}
+			]
+		}
+	}
+}
+

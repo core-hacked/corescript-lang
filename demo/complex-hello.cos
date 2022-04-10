@@ -1,0 +1,17 @@
+#!/bin/corescript
+# a complex hello world in corescript
+var hello = Hello World!
+
+goto main
+
+:hello
+print [hello]
+goto exit
+
+:main
+if hello = Hello World!:hello
+print not hello world
+goto exit
+
+:exit
+stop
