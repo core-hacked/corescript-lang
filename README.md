@@ -388,7 +388,26 @@ stop
 * ``rm [filename]`` delete a file.
 
 These are only officially tested on Windows and Linux, please submit a bug report if something doesn't work on your OS.
-
+<br/>
+<br/>
+  
+  <b>Mathematical Operators</b>
+  
+```js
+    var a = 12
+    set a = [add a 48]
+    print [a]
+```
+  
+* add (+)
+* sub (-)
+* mult (*)
+* div (/)
+* rem (%)
+* rand rand should be used as "min, max". Ex: print [rand 1 10]
+  
+Their purposes should be self-explainable
+  
 <br/>
 
 <b>cores/addons</b>
